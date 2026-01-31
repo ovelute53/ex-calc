@@ -1,0 +1,27 @@
+{
+  "name": "Meowster 환율계산기",
+  "short_name": "Meowster FX",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
+```
+
+**3. `index.html` 헤더에 연결**:
+`<head>` 태그 안에 다음 줄을 추가하세요.
+```html
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#4f46e5">
