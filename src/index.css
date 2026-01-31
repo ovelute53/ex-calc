@@ -2,11 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 기본 배경색 및 폰트 색상 */
 body {
   @apply bg-slate-50 text-slate-900;
 }
 
-/* Custom Scrollbar */
+/* 스크롤바 예쁘게 꾸미기 */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
@@ -21,6 +22,7 @@ body {
   @apply bg-slate-400;
 }
 
+/* 유리 질감 패널 스타일 */
 .glass-panel {
   @apply bg-white/95 border border-slate-200 shadow-sm backdrop-blur-sm;
 }
